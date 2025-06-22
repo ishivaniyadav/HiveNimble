@@ -1,0 +1,44 @@
+.about-section {
+  padding: 4rem 2rem;
+  background: #fdfdfd;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.about-tagline {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  color: #555;
+  font-size: 1rem;
+}
+
+.comparison-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.comparison {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.comparison h3 {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.comparison img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,64 @@
+.timer-page {
+  padding: 4rem 2rem;
+  background: #f9fafc;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.label-input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+.timer-display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.timer-controls button {
+  background: #00c38a;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.3rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.session-list {
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.session-item {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.session-item button {
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #dc3545;
+}

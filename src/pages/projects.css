@@ -1,0 +1,95 @@
+.projects-section {
+  padding: 2.5rem 1rem;
+  background: #f5f7fa;
+}
+
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #2b2d42;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.status-tag {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.status-tag.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.status-tag.completed {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.status-tag.in-progress {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.description {
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.card-details p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.github-link {
+  margin-top: 1rem;
+}
+
+.github-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #24292e;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.github-link a:hover {
+  color: #007bff;
+}

@@ -1,0 +1,41 @@
+.dashboard {
+  padding: 4rem 2rem;
+  background: #f4f7fa;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.summary-card {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.summary-card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.summary-card .light {
+  font-size: 0.9rem;
+  color: #777;
+  font-weight: normal;
+}
+
+.charts {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  margin-top: 2rem;
+}
+
+.chart-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}

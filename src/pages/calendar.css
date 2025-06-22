@@ -1,0 +1,56 @@
+.calendar-sec {
+  padding: 4rem 2rem;
+  background: #ffffff;
+}
+.calendar-sec h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.calendar-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.reminders-panel {
+  min-width: 280px;
+  max-width: 360px;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.reminders-panel ul {
+  list-style: none;
+  padding: 0;
+}
+.reminders-panel li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+.reminders-panel button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.reminders-panel form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.reminders-panel input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.reminders-panel button[type="submit"] {
+  padding: 0.6rem 1rem;
+  background: #00c38a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
