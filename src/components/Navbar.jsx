@@ -5,6 +5,7 @@ import { signOut } from "firebase/auth";
 import { auth } from "../firebase";
 import "./navbar.css";
 
+
 const Navbar = () => {
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -40,3 +41,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
