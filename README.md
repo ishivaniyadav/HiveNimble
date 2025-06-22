@@ -1,12 +1,100 @@
-# React + Vite
+# 🐝 HiveNimble – A Collaborative Workspace for Freelancers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Image](https://github.com/user-attachments/assets/24e86fe8-b8d3-4c37-a4ef-59db94d1aa0d)
 
-Currently, two official plugins are available:
+HiveNimble is a full-stack web application that helps freelancers **track projects**, **manage clients**, **log time**, **generate invoices**, and **interact via chatbot** – all in one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Designed with productivity in mind, HiveNimble empowers freelancers to work smarter and faster.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Demo
+
+🔗 [Live App on Github](https://ishivaniyadav.github.io/HiveNimble/)  
+🔗 [Backend on Render](https://hivenimble.onrender.com)
+
+---
+
+## 🔧 Features
+
+- ✅ **User Authentication** (Firebase Auth)
+- 📁 **Projects, Clients, and Invoices** manager
+- 📆 **Calendar & Reminder Integration**
+- ⏱ **Time Tracker with LocalStorage sync**
+- 📊 **Dashboard Analytics (Earnings, Hours)**
+- 🤖 **AI Chatbot Assistant (Node.js API)**
+- 💬 **Predefined & Dynamic Chatbot Responses**
+
+---
+
+## 🖥️ Tech Stack
+
+| Frontend | Backend | Database | Auth |
+|----------|---------|----------|------|
+| <img src="https://skillicons.dev/icons?i=react,tailwind,js" height="30"/> | <img src="https://skillicons.dev/icons?i=nodejs,express" height="30"/> | <img src="https://skillicons.dev/icons?i=firebase" height="30"/> | <img src="https://skillicons.dev/icons?i=firebase" height="30"/> |
+
+---
+
+## 🚀 Getting Started
+
+### Frontend Setup (`/`)
+
+```bash
+npm install
+npm run dev
+````
+
+### Backend Setup (`/backend`)
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+
+## 📁 Project Structure
+
+```
+HiveNimble/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── contexts/
+│   └── App.jsx
+├── backend/
+│   ├── routes/
+│   └── server.js
+└── README.md
+```
+
+---
+
+## 📘 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📣 Acknowledgements
+
+* Firebase Auth & Firestore
+* Render & Netlify Hosting
+* TailwindCSS & Lucide Icons
+* Chatbot Intent Matching (Custom)
+
+---
+
+## ⭐️ Show Your Support
+
+If you like this project:
+
+🌟 Star it on GitHub
+🔁 Share it with friends
+📥 Fork and contribute!
+
+---
+
+> 💡 *Built with love, caffeine & hustle in the HiveNimble nest 🐝*
