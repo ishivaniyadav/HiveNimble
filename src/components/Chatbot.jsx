@@ -45,7 +45,7 @@ const Chatbot = () => {
     setIsTyping(true);
 
     try {
-      const response = await fetch('http://localhost:5000/api/chatbot', {
+      const response = await fetch('https://hivenimble.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: userMessage.text }),
