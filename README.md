@@ -78,7 +78,7 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## 📣 Acknowledgements
+## 📣 Acknowledgements 
 
 * Firebase Auth & Firestore
 * Render & Netlify Hosting
