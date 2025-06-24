@@ -21,10 +21,11 @@ import Dashboard from "./pages/Dashboard";
 import TimeTracker from "./pages/TimeTracker";
 import "./styles/index.css";
 import Chatbot from './components/Chatbot';
+
 const Home = () => (
   <>
     <Hero />
-    <About/>
+    <About />
     <Features />
     <Projects />
     <Invoices />
@@ -33,7 +34,7 @@ const Home = () => (
 
 function App() {
   return (
-    <Router>
+    <Router basename="/HiveNimble">
       <AuthProvider>
         <Navbar />
         <Routes>
