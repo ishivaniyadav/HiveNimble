@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/HiveNimble/', // 
+  base: '/', // <- set to root for Vercel deployment
   plugins: [react()],
 })

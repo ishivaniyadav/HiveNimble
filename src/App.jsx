@@ -19,8 +19,9 @@ import ClientList from "./pages/ClientList";
 import ClientProfile from "./pages/ClientProfile";
 import Dashboard from "./pages/Dashboard";
 import TimeTracker from "./pages/TimeTracker";
+
 import "./styles/index.css";
-import Chatbot from './components/Chatbot';
+import Chatbot from "./components/Chatbot";
 
 const Home = () => (
   <>
@@ -34,7 +35,7 @@ const Home = () => (
 
 function App() {
   return (
-    <Router basename="/HiveNimble">
+    <Router>
       <AuthProvider>
         <Navbar />
         <Routes>
